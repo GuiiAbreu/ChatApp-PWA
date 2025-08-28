@@ -87,18 +87,18 @@ chatapp-pwa/
 ### Instalação Local
 
 ```bash```
-# Clone o repositório
+#### Clone o repositório
 ```git clone <repository-url>```
 
 ```cd chatapp-pwa```
 
-# Instale as dependências
+#### Instale as dependências
 ```npm install```
 
-# Configure as variáveis de ambiente
+#### Configure as variáveis de ambiente
 ```cp .env.example .env.local```
 
-# Execute em modo desenvolvimento
+#### Execute em modo desenvolvimento
 ```npm run dev```
 
 
