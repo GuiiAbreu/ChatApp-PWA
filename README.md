@@ -86,16 +86,16 @@ chatapp-pwa/
 
 ### Instalação Local
 
-\`\`\`bash
+```bash```
 # Clone o repositório
-git clone <repository-url>
-cd chatapp-pwa
+```git clone <repository-url>```
+```cd chatapp-pwa```
 
 # Instale as dependências
-npm install
+```npm install```
 
 # Configure as variáveis de ambiente
-cp .env.example .env.local
+```cp .env.example .env.local```
 
 # Execute em modo desenvolvimento
 ```npm run dev```
@@ -103,13 +103,13 @@ cp .env.example .env.local
 
 ### Variáveis de Ambiente
 
-```env
+```env```
 # Chave pública VAPID para notificações push
-NEXT_PUBLIC_VAPID_PUBLIC_KEY=your_vapid_public_key
+```NEXT_PUBLIC_VAPID_PUBLIC_KEY=your_vapid_public_key```
 
 # URL do servidor WebSocket (opcional para demo)
-NEXT_PUBLIC_WEBSOCKET_URL=ws://localhost:8080
-```
+```NEXT_PUBLIC_WEBSOCKET_URL=ws://localhost:8080```
+
 
 ### Build para Produção
 
