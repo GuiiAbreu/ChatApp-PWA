@@ -89,6 +89,7 @@ chatapp-pwa/
 ```bash```
 # Clone o repositório
 ```git clone <repository-url>```
+
 ```cd chatapp-pwa```
 
 # Instale as dependências
