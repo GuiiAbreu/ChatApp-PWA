@@ -18,66 +18,37 @@ Uma aplicação Progressive Web App (PWA) completa para comunicação em tempo r
 ```
 chatapp-pwa/
 ├── app/                    # Next.js App Router
-
 │   ├── globals.css        # Estilos globais e tokens de design
-
 │   ├── layout.tsx         # Layout principal com metadados PWA
-
 │   └── page.tsx           # Página principal do chat
-
 ├── components/            # Componentes React reutilizáveis
-
 │   ├── ui/               # Componentes base do shadcn/ui
-
 │   ├── chat-messages.tsx # Exibição de mensagens
-
 │   ├── connection-status.tsx # Status da conexão
-
 │   ├── offline-indicator.tsx # Indicador offline
-
 │   ├── notification-settings.tsx # Configurações de notificação
-
 │   ├── pwa-install-banner.tsx # Banner de instalação PWA
-
 │   └── pwa-settings.tsx  # Configurações PWA
-
 ├── hooks/                # Custom React Hooks
-
 │   ├── use-websocket.ts  # Gerenciamento WebSocket
-
 │   ├── use-offline.ts    # Detecção offline
-
 │   ├── use-pwa.ts        # Funcionalidades PWA
-
 │   ├── use-push-notifications.ts # Notificações push
-
 │   └── use-cache-manager.ts # Gerenciamento de cache
-
 ├── lib/                  # Utilitários e serviços
-
 │   ├── websocket.ts      # Gerenciador WebSocket principal
-
 │   ├── mock-websocket.ts # WebSocket simulado para demo
-
 │   ├── offline-storage.ts # Armazenamento offline
-
 │   ├── push-notifications.ts # Sistema de notificações
-
 │   ├── pwa-manager.ts    # Gerenciador PWA
-
 │   └── cache-manager.ts  # Estratégias de cache
-
 ├── public/               # Arquivos estáticos
-
 │   ├── manifest.json     # Manifesto PWA
-
 │   ├── sw.js            # Service Worker
-
 │   ├── offline.html     # Página offline
-
 │   └── icons/           # Ícones da aplicação
-
-└── scripts/             # Scripts de configuração```
+└── scripts/             # Scripts de configuração
+```
 
 ### Fluxo de Dados
 
@@ -127,28 +98,28 @@ npm install
 cp .env.example .env.local
 
 # Execute em modo desenvolvimento
-npm run dev
-\`\`\`
+```npm run dev```
+
 
 ### Variáveis de Ambiente
 
-\`\`\`env
+```env
 # Chave pública VAPID para notificações push
 NEXT_PUBLIC_VAPID_PUBLIC_KEY=your_vapid_public_key
 
 # URL do servidor WebSocket (opcional para demo)
 NEXT_PUBLIC_WEBSOCKET_URL=ws://localhost:8080
-\`\`\`
+```
 
 ### Build para Produção
 
-\`\`\`bash
+```bash
 # Build otimizado
 npm run build
 
 # Servir localmente
 npm start
-\`\`\`
+```
 
 ## 📱 Funcionalidades PWA
 
@@ -236,7 +207,7 @@ npm start
 - **Firebase Hosting**: Configuração PWA nativa
 
 ### Configurações de Deploy
-\`\`\`json
+```json
 {
   "headers": [
     {
@@ -250,7 +221,7 @@ npm start
     }
   ]
 }
-\`\`\`
+```
 
 ## 🤝 Contribuição
 
@@ -261,14 +232,14 @@ npm start
 - Automated testing
 
 ### Estrutura de Commits
-\`\`\`
+```
 feat: adiciona nova funcionalidade
 fix: corrige bug específico
 docs: atualiza documentação
 style: ajustes de formatação
 refactor: refatoração de código
 test: adiciona ou modifica testes
-\`\`\`
+```
 
 ## 📄 Licença
 
@@ -283,4 +254,4 @@ Para suporte técnico ou dúvidas:
 
 ---
 
-**Desenvolvido com ❤️ pela equipe ChatApp PWA**
+**Aplicação desenvolvida para a disciplina de Programação para Web II lecionada pelo Prof. Me. Cicero Aristofanio**
