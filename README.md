@@ -104,23 +104,23 @@ chatapp-pwa/
 
 ### Variáveis de Ambiente
 
-```env```
-# Chave pública VAPID para notificações push
+```.env```
+#### Chave pública VAPID para notificações push
 ```NEXT_PUBLIC_VAPID_PUBLIC_KEY=your_vapid_public_key```
 
-# URL do servidor WebSocket (opcional para demo)
+#### URL do servidor WebSocket (opcional para demo)
 ```NEXT_PUBLIC_WEBSOCKET_URL=ws://localhost:8080```
 
 
 ### Build para Produção
 
-```bash
-# Build otimizado
-npm run build
+```bash```
+#### Build otimizado
+```npm run build```
 
-# Servir localmente
-npm start
-```
+#### Servir localmente
+```npm start```
+
 
 ## 📱 Funcionalidades PWA
 
