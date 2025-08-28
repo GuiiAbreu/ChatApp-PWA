@@ -15,40 +15,69 @@ Uma aplicação Progressive Web App (PWA) completa para comunicação em tempo r
 
 ### Estrutura de Diretórios
 
-\`\`\`
+```
 chatapp-pwa/
 ├── app/                    # Next.js App Router
+
 │   ├── globals.css        # Estilos globais e tokens de design
+
 │   ├── layout.tsx         # Layout principal com metadados PWA
+
 │   └── page.tsx           # Página principal do chat
+
 ├── components/            # Componentes React reutilizáveis
+
 │   ├── ui/               # Componentes base do shadcn/ui
+
 │   ├── chat-messages.tsx # Exibição de mensagens
+
 │   ├── connection-status.tsx # Status da conexão
+
 │   ├── offline-indicator.tsx # Indicador offline
+
 │   ├── notification-settings.tsx # Configurações de notificação
+
 │   ├── pwa-install-banner.tsx # Banner de instalação PWA
+
 │   └── pwa-settings.tsx  # Configurações PWA
+
 ├── hooks/                # Custom React Hooks
+
 │   ├── use-websocket.ts  # Gerenciamento WebSocket
+
 │   ├── use-offline.ts    # Detecção offline
+
 │   ├── use-pwa.ts        # Funcionalidades PWA
+
 │   ├── use-push-notifications.ts # Notificações push
+
 │   └── use-cache-manager.ts # Gerenciamento de cache
+
 ├── lib/                  # Utilitários e serviços
+
 │   ├── websocket.ts      # Gerenciador WebSocket principal
+
 │   ├── mock-websocket.ts # WebSocket simulado para demo
+
 │   ├── offline-storage.ts # Armazenamento offline
+
 │   ├── push-notifications.ts # Sistema de notificações
+
 │   ├── pwa-manager.ts    # Gerenciador PWA
+
 │   └── cache-manager.ts  # Estratégias de cache
+
 ├── public/               # Arquivos estáticos
+
 │   ├── manifest.json     # Manifesto PWA
+
 │   ├── sw.js            # Service Worker
+
 │   ├── offline.html     # Página offline
+
 │   └── icons/           # Ícones da aplicação
-└── scripts/             # Scripts de configuração
-\`\`\`
+
+└── scripts/             # Scripts de configuração```
 
 ### Fluxo de Dados
 
